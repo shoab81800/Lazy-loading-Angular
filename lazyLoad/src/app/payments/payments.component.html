@@ -1,0 +1,31 @@
+<h1>
+    {{ 'title' }}
+  </h1>
+  <div class="login">
+    <div class="loginHeader">
+      <h1 class="headerContaint">SIGN IN</h1>
+    </div>
+  </div>
+  <div class="pickup-container">
+    <div class="pickup-header">
+      <h1 class="pickup-header-info">PICKUP INFORMATION</h1>
+    </div>
+  </div>
+  <div class="payment-method-container">
+    <div class="payment-header">
+      <h1 class="payment-header-details">PAYMENT METHOD</h1>
+    </div>
+    <div class="payment-types">
+    <input type="radio" id="card-payment" name="payments"  >
+     <label for="card">Pay with a Credit or Debit Card</label><br>
+    <input type="radio" id="card-payment" name="payments" >
+    <label for="paypal">Pay with PayPal</label><br>
+     <input type="radio" id="card-payment" name="payments" >
+     <label for="gpay">Pay with Google Pay</label><br>
+     <input type="radio" id="card-payment" name="payments" >
+     <label for="paylater">Pay later</label><br>
+     </div>
+     <div class="payment-btn">
+      <button class="payment-submit-btn" [routerLink]="['../thankyou']" >Submit</button>
+     </div>
+  </div>

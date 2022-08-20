@@ -1,0 +1,29 @@
+<div class="login">
+    <div class="loginHeader">
+      <h1 class="headerContaint">SIGN IN</h1>
+    </div>
+    <div class="loginForm">
+      <div class="emailContainer">
+        <label for="userId">Email :</label>
+        <input type="email" class="email-field" [(ngModel)]="email"  />
+      </div>
+      <div class="passwordContainer">
+        <label for="password"> Password :</label>
+        <input type="password" class="password-field"  [(ngModel)]="password" />
+      </div>
+      <div class="login-btn-container">
+        <button *ngIf="0<password.length && 0<email.length" class="loginBtn" [routerLink]="['../pickInfo']">Sign In</button>
+      </div>
+    </div>
+  </div>
+  <div class="pickup-container">
+    <div class="pickup-header">
+      <h1 class="pickup-header-info">PICKUP INFORMATION</h1>
+    </div>
+  </div>
+  <div class="payment-method-container">
+    <div class="payment-header">
+      <h1 class="payment-header-details">PAYMENT METHOD</h1>
+    </div>
+
+  </div>

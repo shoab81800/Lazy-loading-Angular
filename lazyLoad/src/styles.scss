@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.loginHeader{
+    margin: 10px 0px;
+    background-color: #012169;
+    color: #fff;
+    line-height: 44px;
+    width: 40%;
+    margin-left: 6px;
+}
+.headerContaint{
+    font-size: 18px;
+    margin-left:10px ;
+}
+.emailContainer{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+}
+.passwordContainer{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin: 10px;
+}
+.loginBtn{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 0px;
+    background-color: #0458ad;
+    color: #fff;
+    cursor: pointer;
+}
+.pickup-header{
+    margin: 10px 0px;
+    background-color: #012169;
+    color: #fff;
+    line-height: 44px;
+    width: 40%;
+    margin-left: 6px;
+}
+.pickup-header-info{
+    font-size: 18px;
+    margin-left:10px ;
+}
+.pickup-info-details{
+    margin-left: 10px;
+}
+.pickup-btn-details{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 0px;
+    background-color: #0458ad;
+    color: #fff;
+    cursor: pointer;
+}
+.payment-header{
+    
+    margin: 10px 0px;
+    background-color: #012169;
+    color: #fff;
+    line-height: 44px;
+    width: 40%;
+    margin-left: 6px;
+}
+.payment-header-details{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.payment-types{
+    margin: 10px;
+}
+#card-payment{
+    margin: 10px;
+}
+.payment-submit-btn{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    border: 0px;
+    background-color: #0458ad;
+    color: #fff;
+    cursor: pointer;
+}
